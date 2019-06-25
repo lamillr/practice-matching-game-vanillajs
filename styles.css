@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before,*:after {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+
+body{
+  background-color: lightslategray;
+}
+.container {
+  max-width: 700px;
+  margin-top:50px;
+  margin-bottom:50px;
+  padding: 0;
+}
+h2 {
+  text-align: center;
+  color: white;
+}
+.section {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+.card-panel {
+  width: 150px;
+  height: 150px;
+  display:inline-block;
+  text-align: center;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr; 
+  color: white;
+  visibility: hidden;
+  
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
